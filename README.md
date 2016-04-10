@@ -1,6 +1,6 @@
 # Pilotgadgetry
 
-There used to be code here, but now you'll only find the parts neglected from being copied along with it.
+There used to be source code here, but now you might only find the parts neglected from being copied along with it.
 
 Project on Hackster.io:
 https://www.hackster.io/Biscuits24_/pilotgadgetry
