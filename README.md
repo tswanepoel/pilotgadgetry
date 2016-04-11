@@ -1,6 +1,6 @@
 # Pilotgadgetry
 
-There used to be source code here, but now you might only find the parts neglected from being copied along with it.
+There used to be source code here, but you may now only find the parts neglected from being copied along with it.
 
 Flight test #4 (March 2016):
 https://www.youtube.com/watch?v=qiH9-Ixucz0
