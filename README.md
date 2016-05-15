@@ -52,10 +52,16 @@ WindowsPilot.Create(
 ## Nuget
 
 | Package | Description |
-|----|-------------|
+|---------|-------------|
 | [Biscuits.Devices.L3gd20h.Windows](https://www.nuget.org/packages/Biscuits.Devices.L3gd20h.Windows/) | L3GD20H Gyroscope library for the Universal Windows Platform |
 | [Biscuits.Devices.Lps25h.Windows](https://www.nuget.org/packages/Biscuits.Devices.Lps25h.Windows/) | LPS25H Pressure Sensor library for the Universal Windows Platform |
 | [Biscuits.Devices.Lsm303d.Windows](https://www.nuget.org/packages/Biscuits.Devices.Lsm303d.Windows/)| LSM303D 3D Compass and Accelerometer library for the Universal Windows Platform |
 | [Biscuits.Devices.Srf02.Windows](https://www.nuget.org/packages/Biscuits.Devices.Srf02.Windows/) | SRF02 Proximity Sensor library for the Universal Windows Platform |
 | [Biscuits.Devices.Pca9685.Windows](https://www.nuget.org/packages/Biscuits.Devices.Pca9685.Windows/) | PCA9685 PWM Controller library for the Universal Windows Platform |
 | [Biscuits.Devices.LogitechF710.Windows](https://www.nuget.org/packages/Biscuits.Devices.LogitechF710.Windows/) | Logitech F710 Gamepad library for the Universal Windows Platform |
+
+## Other
+
+| Date    | Title                                                             | Video |
+|---------|-------------------------------------------------------------------|-------|
+| Feb '16 | [Flight diagnostics](https://www.youtube.com/watch?v=hWMFAnHBW-c) | [![Flight test #4](https://img.youtube.com/vi/hWMFAnHBW-c/0.jpg)](https://www.youtube.com/watch?v=hWMFAnHBW-c) |
