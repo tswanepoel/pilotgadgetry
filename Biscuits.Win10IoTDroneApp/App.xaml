@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Biscuits.Win10IoTDroneApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Biscuits.Win10IoTDroneApp"
+    RequestedTheme="Light">
+
+</Application>
