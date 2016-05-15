@@ -8,7 +8,7 @@ namespace Biscuits.Devices
     using Windows.Devices.I2c;
 
     /// <summary>
-    /// Provides an I2C interface to SRF02.
+    /// Provides an inter-integrated circuit (I2C) interface to SRF02.
     /// </summary>
     public class Srf02 : IDisposable
     {
@@ -75,6 +75,9 @@ namespace Biscuits.Devices
             return EndRead();
         }
 
+        /// <summary>
+        /// Starts reading raw proximity data.
+        /// </summary>
         public void BeginRead()
         {
             if (_disposed)
@@ -91,6 +94,10 @@ namespace Biscuits.Devices
             _stopwatch = Stopwatch.StartNew();
         }
 
+        /// <summary>
+        /// Completes reading raw proximity data.
+        /// </summary>
+        /// <returns>Raw proximity data.</returns>
         public ushort EndRead()
         {
             if (_disposed)
@@ -113,24 +120,26 @@ namespace Biscuits.Devices
         }
 
         /// <summary>
-        /// Disposes the I2C interface.
+        /// Releases resources used by the I2C interface to SRF02.
         /// </summary>
         public void Dispose()
         {
             Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         /// <summary>
-        /// Disposes the I2C interface.
+        /// Releases resources used by the I2C interface to SRF02.
         /// </summary>
-        /// <param name="disposing">The value indicating whether the I2C interface is disposing.</param>
+        /// <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         protected virtual void Dispose(bool disposing)
         {
             if (disposing)
             {
                 _device.Dispose();
-                _disposed = true;
             }
+
+            _disposed = true;
         }
     }
 }

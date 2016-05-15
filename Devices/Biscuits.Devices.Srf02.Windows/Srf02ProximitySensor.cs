@@ -10,9 +10,10 @@ namespace Biscuits.Devices
     /// </summary>
     public class Srf02ProximitySensor : IProximitySensor, IDisposable
     {
+        private static Lazy<Srf02ProximitySensor> _default = new Lazy<Srf02ProximitySensor>(true);
+
         private readonly Srf02 _srf02;
         private bool _disposed;
-        private static Lazy<Srf02ProximitySensor> _default = new Lazy<Srf02ProximitySensor>(true);
 
         /// <summary>
         /// Gets the default instance.
@@ -42,7 +43,7 @@ namespace Biscuits.Devices
         /// <summary>
         /// Returns proximity.
         /// </summary>
-        /// <returns>The distance in meters.</returns>
+        /// <returns>The distance, in meters.</returns>
         public double Read()
         {
             if (_disposed)
@@ -54,6 +55,9 @@ namespace Biscuits.Devices
             return EndRead();
         }
 
+        /// <summary>
+        /// Starts reading proximity data.
+        /// </summary>
         public void BeginRead()
         {
             if (_disposed)
@@ -64,6 +68,10 @@ namespace Biscuits.Devices
             _srf02.BeginRead();
         }
 
+        /// <summary>
+        /// Completes reading proximity data.
+        /// </summary>
+        /// <returns>The distance, in meters.</returns>
         public double EndRead()
         {
             if (_disposed)
@@ -78,24 +86,26 @@ namespace Biscuits.Devices
         }
 
         /// <summary>
-        /// Disposes the proximity sensor.
+        /// Releases resources used by the proximity sensor.
         /// </summary>
         public void Dispose()
         {
             Dispose(true);
+            GC.SuppressFinalize(true);
         }
 
         /// <summary>
-        /// Disposes the proximity sensor.
+        /// Releases resources used by the proximity sensor.
         /// </summary>
-        /// <param name="disposing">The value indicating whether the proximity sensor is disposing.</param>
+        /// <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         protected virtual void Dispose(bool disposing)
         {
             if (disposing)
             {
                 _srf02.Dispose();
-                _disposed = true;
             }
+
+            _disposed = true;
         }
     }
 }

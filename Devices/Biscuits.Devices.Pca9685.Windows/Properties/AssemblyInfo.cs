@@ -4,7 +4,7 @@
 using System.Reflection;
 
 [assembly: AssemblyTitle("Biscuits.Devices.Pca9685.Windows (Class Library)")]
-[assembly: AssemblyDescription("Adafruit PCA9685 LED Controller library for the Universal Windows Platform")]
-[assembly: AssemblyProduct("Biscuits Adafruit PCA9685 LED Controller library for the UWP")]
+[assembly: AssemblyDescription("PCA9685 PWM Controller library for the Universal Windows Platform")]
+[assembly: AssemblyProduct("Biscuits PCA9685 PWM Controller library for Universal Windows")]
 [assembly: AssemblyVersion("1.0.0.*")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

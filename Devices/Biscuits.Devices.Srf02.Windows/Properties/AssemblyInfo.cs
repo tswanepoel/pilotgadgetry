@@ -4,7 +4,7 @@
 using System.Reflection;
 
 [assembly: AssemblyTitle("Biscuits.Devices.Srf02.Windows (Class Library)")]
-[assembly: AssemblyDescription("SRF02 Ultrasonic Sensor library for the Universal Windows Platform")]
-[assembly: AssemblyProduct("Biscuits SRF02 Ultrasonic Sensor library for the UWP")]
+[assembly: AssemblyDescription("SRF02 Proximity Sensor library for the Universal Windows Platform")]
+[assembly: AssemblyProduct("Biscuits Proximity Ultrasonic Sensor library for Universal Windows")]
 [assembly: AssemblyVersion("1.0.0.*")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

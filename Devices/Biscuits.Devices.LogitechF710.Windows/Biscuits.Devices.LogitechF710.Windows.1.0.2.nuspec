@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Biscuits.Devices.LogitechF710.Windows</id>
+        <version>1.0.2</version>
+        <title>Logitech F710 Gamepad library for Universal Windows</title>
+        <authors>Theunis Swanepoel</authors>
+        <owners>Biscuits24</owners>
+        <licenseUrl>https://raw.githubusercontent.com/tswanepoel/pilotgadgetry/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/tswanepoel/pilotgadgetry</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Logitech F710 Gamepad library for the Universal Windows Platform</description>
+        <copyright>Copyright © 2015 Theunis Swanepoel</copyright>
+        <tags>LogitechF710 Gamepad UWP</tags>
+        <dependencies>
+            <group targetFramework="Rx0.0-Main">
+                <dependency id="Rx-Main" version="2.2.5" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\Biscuits.Core.dll" target="lib\Biscuits.Core.dll" />
+        <file src="bin\Release\Biscuits.Devices.LogitechF710.Windows.dll" target="lib\Biscuits.Devices.LogitechF710.Windows.dll" />
+    </files>
+</package>
