@@ -56,12 +56,12 @@ WindowsPilot.Create(
 | [Biscuits.Devices.Pca9685.Windows](https://www.nuget.org/packages/Biscuits.Devices.Pca9685.Windows/) | PCA9685 PWM Controller library for the Universal Windows Platform |
 | [Biscuits.Devices.LogitechF710.Windows](https://www.nuget.org/packages/Biscuits.Devices.LogitechF710.Windows/) | Logitech F710 Gamepad library for the Universal Windows Platform |
 
-## References
-- [Windows IoT Extensions for the UWP](https://msdn.microsoft.com/en-us/library/dn975273.aspx)
-- [Reactive Extensions](http://reactivex.io/)
-
-## Other
+## Diagnostics
 
 | Date    | Title                                                             | Video |
 |---------|-------------------------------------------------------------------|-------|
 | Feb '16 | [Flight diagnostics](https://www.youtube.com/watch?v=hWMFAnHBW-c) | [![Flight test #4](https://img.youtube.com/vi/hWMFAnHBW-c/0.jpg)](https://www.youtube.com/watch?v=hWMFAnHBW-c) |
+
+## References
+- [Windows IoT Extensions for the UWP](https://msdn.microsoft.com/en-us/library/dn975273.aspx)
+- [Reactive Extensions](http://reactivex.io/)
