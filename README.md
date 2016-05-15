@@ -17,10 +17,10 @@ This project is experimental. You shouldn't be using this if anyone's life or sa
 - Sensor Fusion / Attitude and Heading Reference System (AHRS)
 - Logitech F710 Wireless Controller USB-HID
 - PWM Controller (PCA9685) interface
-- PID Controller for angular positions
+- PID control for angular positions
 
 ## Experimental
-- Barometer/Pressure Sensor and Thermometer (LPS25H) interfcace
+- Barometer/Pressure Sensor and Thermometer (LPS25H) interface
 - Ultrasonic/Proximity Sensor (SRF02) interface
 - GPS (u-blox PAM-7Q) interface
 - NMEA parser
