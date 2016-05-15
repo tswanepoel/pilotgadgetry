@@ -2,15 +2,6 @@
 
 This project is experimental. You shouldn't be using this if anyone's life or safety depends on it.
 
-## Flight tests
-
-| Date    | Title                                                         | Video |
-|---------|---------------------------------------------------------------|-------|
-| Mar '16 | [Flight test #4](https://www.youtube.com/watch?v=qiH9-Ixucz0) | [![Flight test #4](https://img.youtube.com/vi/qiH9-Ixucz0/0.jpg)](https://www.youtube.com/watch?v=qiH9-Ixucz0) |
-| Mar '16 | [Flight test #3](https://www.youtube.com/watch?v=eUwYJJzWhso) | [![Flight test #4](https://img.youtube.com/vi/eUwYJJzWhso/0.jpg)](https://www.youtube.com/watch?v=eUwYJJzWhso) |
-| Dec '15 | [Flight test #2](https://www.youtube.com/watch?v=wXpQVnmI2WU) | [![Flight test #4](https://img.youtube.com/vi/wXpQVnmI2WU/0.jpg)](https://www.youtube.com/watch?v=wXpQVnmI2WU) |
-| Nov '15 | [Flight test #1](https://www.youtube.com/watch?v=5qz6GVNDpXA) | [![Flight test #4](https://img.youtube.com/vi/5qz6GVNDpXA/0.jpg)](https://www.youtube.com/watch?v=5qz6GVNDpXA) |
-
 ## Autopilot
 ```
 var speedController = new SpeedController(Pca9685PwmController.Default);
@@ -36,6 +27,21 @@ WindowsPilot.Create(
 - PWM Controller (PCA9685) interface
 - PID control for angular positions
 
+## Tests
+
+| Date    | Title                                                         | Video |
+|---------|---------------------------------------------------------------|-------|
+| Mar '16 | [Flight test #4](https://www.youtube.com/watch?v=qiH9-Ixucz0) | [![Flight test #4](https://img.youtube.com/vi/qiH9-Ixucz0/0.jpg)](https://www.youtube.com/watch?v=qiH9-Ixucz0) |
+| Mar '16 | [Flight test #3](https://www.youtube.com/watch?v=eUwYJJzWhso) | [![Flight test #4](https://img.youtube.com/vi/eUwYJJzWhso/0.jpg)](https://www.youtube.com/watch?v=eUwYJJzWhso) |
+| Dec '15 | [Flight test #2](https://www.youtube.com/watch?v=wXpQVnmI2WU) | [![Flight test #4](https://img.youtube.com/vi/wXpQVnmI2WU/0.jpg)](https://www.youtube.com/watch?v=wXpQVnmI2WU) |
+| Nov '15 | [Flight test #1](https://www.youtube.com/watch?v=5qz6GVNDpXA) | [![Flight test #4](https://img.youtube.com/vi/5qz6GVNDpXA/0.jpg)](https://www.youtube.com/watch?v=5qz6GVNDpXA) |
+
+## Diagnostics
+
+| Date    | Title                                                             | Video |
+|---------|-------------------------------------------------------------------|-------|
+| Feb '16 | [Flight diagnostics](https://www.youtube.com/watch?v=hWMFAnHBW-c) | [![Flight test #4](https://img.youtube.com/vi/hWMFAnHBW-c/0.jpg)](https://www.youtube.com/watch?v=hWMFAnHBW-c) |
+
 ## Experimental
 - Barometer/Pressure Sensor and Thermometer (LPS25H) interface
 - Ultrasonic/Proximity Sensor (SRF02) interface
@@ -55,12 +61,6 @@ WindowsPilot.Create(
 | [Biscuits.Devices.Srf02.Windows](https://www.nuget.org/packages/Biscuits.Devices.Srf02.Windows/) | SRF02 Proximity Sensor library for the Universal Windows Platform |
 | [Biscuits.Devices.Pca9685.Windows](https://www.nuget.org/packages/Biscuits.Devices.Pca9685.Windows/) | PCA9685 PWM Controller library for the Universal Windows Platform |
 | [Biscuits.Devices.LogitechF710.Windows](https://www.nuget.org/packages/Biscuits.Devices.LogitechF710.Windows/) | Logitech F710 Gamepad library for the Universal Windows Platform |
-
-## Diagnostics
-
-| Date    | Title                                                             | Video |
-|---------|-------------------------------------------------------------------|-------|
-| Feb '16 | [Flight diagnostics](https://www.youtube.com/watch?v=hWMFAnHBW-c) | [![Flight test #4](https://img.youtube.com/vi/hWMFAnHBW-c/0.jpg)](https://www.youtube.com/watch?v=hWMFAnHBW-c) |
 
 ## References
 - [Windows IoT Extensions for the UWP](https://msdn.microsoft.com/en-us/library/dn975273.aspx)
